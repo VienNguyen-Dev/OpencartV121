@@ -3,10 +3,12 @@ C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\pageobjects\BasePage.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\pageobjects\HomePage.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\pageobjects\LoginPage.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\pageobjects\MyAccountPage.java
+C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\pageobjects\SearchProductResultPage.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\testbase\BaseClass.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\testcases\TC001_AccountRegistrationTest.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\testcases\TC002_LoginTest.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\testcases\TC003_LoginDataDrivenTest.java
+C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\testcases\TC004_SearchProductTest.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\utilities\DataProviders.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\utilities\ExcelUtility.java
 C:\Users\DELL\Desktop\JAVA\OpenCartV121\src\test\java\utilities\ExtentReportManager.java

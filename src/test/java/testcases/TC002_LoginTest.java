@@ -40,7 +40,6 @@ public class TC002_LoginTest extends BaseClass {
 			boolean targetPage = maccPage.isMyAcountPageExist();
 //			Assert.assertEquals(targetPage, true, "Login Fail");
 				Assert.assertTrue(targetPage);
-			
 		} catch (Exception e) {
 			// TODO: handle exception
 			Assert.fail();

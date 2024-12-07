@@ -10,14 +10,13 @@
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<!--
-			 -->
 			<!-- 
-			
 			<class name="testcases.TC003_LoginDataDrivenTest" />
 			 -->
 			 <class name="testcases.TC001_AccountRegistrationTest"/> 
 			<class name="testcases.TC002_LoginTest" />
+			<class name="testcases.TC004_SearchProductTest" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -21,7 +21,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>
-								master.xml
+								Master.xml
 							</suiteXmlFile>
 							<!-- 
 						

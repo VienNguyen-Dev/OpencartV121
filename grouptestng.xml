@@ -24,6 +24,8 @@
 			<class name="testcases.TC001_AccountRegistrationTest" />
 
 			<class name="testcases.TC002_LoginTest" />
+			<class name="testcases.TC005_AddToCartTest" />
+			
 
 			<!-- <class name="testcases.TC003_LoginDataDrivenTest" /> -->
 		</classes>

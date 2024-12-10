@@ -49,4 +49,25 @@ public class SearchProductResultPage extends BasePage {
 		return false;
 	}
 
+	public ProductPage selectProduct(String productName) {
+		try {
+			wait.until(ExpectedConditions.visibilityOfAllElements(listProducts));
+			for (WebElement product : listProducts) {
+				if (product.getAttribute("title").equals(productName)) {
+					wait.until(ExpectedConditions.elementToBeClickable(product));
+					product.click();
+					
+					return new ProductPage(driver);
+				
+				}
+			}
+			System.out.println("Not found product" + productName);
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Error selecting product " + e.getMessage());
+		}
+		return null;
+	}
+
 }

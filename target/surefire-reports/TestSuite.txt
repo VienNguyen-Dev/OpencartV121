@@ -1,25 +1,42 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.78 s <<< FAILURE! -- in TestSuite
-testcases.TC001_AccountRegistrationTest.verify_account_registration -- Time elapsed: 2.314 s <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testcases.TC001_AccountRegistrationTest.verify_account_registration(TC001_AccountRegistrationTest.java:50)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 18.87 s <<< FAILURE! -- in TestSuite
+testcases.TC005_AddToCartTest.setUp[Windows, chrome](0) -- Time elapsed: 14.00 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.014
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d3f9abc2090d1a9103c187c7067eb5a, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55327/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d3f9abc2090d1a9103c187c7067eb5a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at testbase.BaseClass.setUp(BaseClass.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
 	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)

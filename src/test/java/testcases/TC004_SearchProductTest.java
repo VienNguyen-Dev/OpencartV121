@@ -23,9 +23,8 @@ public class TC004_SearchProductTest extends BaseClass {
 			logger.info("Enter product name into Search text box field: "+ productName );
 			hp.setSearchInput(productName);
 			logger.info("Click on 'Search' button to initialize search product");
-			hp.clickSearchButton();
+			SearchProductResultPage spPage = hp.clickSearchButton();
 			logger.info("Navigate to Search Product Result Page");
-			SearchProductResultPage spPage = new SearchProductResultPage(driver);
 			
 			logger.info("Validate Search Product Result Page Exist .........");
 			

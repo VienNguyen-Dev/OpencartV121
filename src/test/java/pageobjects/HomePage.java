@@ -1,14 +1,19 @@
 package pageobjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
-
+WebDriverWait await;
 	public HomePage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		super(driver);
+		this.await = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	}
 
@@ -51,9 +56,17 @@ public class HomePage extends BasePage {
 		
 	}
 
-	public void clickSearchButton() {
+	public SearchProductResultPage clickSearchButton() {
 		// TODO Auto-generated method stub
-		btnSearch.click();
+		try {
+			await.until(ExpectedConditions.elementToBeClickable(btnSearch));
+			btnSearch.click();
+			return new SearchProductResultPage(driver);
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Exception occur while clicking Search button" + e.getMessage());
+			return null;
+		}
 
 	}
 

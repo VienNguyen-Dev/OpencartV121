@@ -89,7 +89,8 @@ public class BaseClass {
 
 		}
 
-		String url = p.getProperty("appURL2");
+		String url = p.getProperty("appURL");
+//		String url = p.getProperty("appURL2");
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get(url);

@@ -17,7 +17,7 @@ import testbase.BaseClass;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
 
-	@Test(groups = {"Regression", "Master"})
+	@Test(groups = { "Regression", "Master" })
 	public void verify_account_registration() throws InterruptedException {
 		logger.info("************** Starting TC001_AccountRegistrationTest ******");
 
@@ -26,8 +26,9 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			logger.info("Click on My Account Link");
 			hp.clickMyAccount();
 			logger.info("Click on Register Link");
-			hp.clickRegister();
-			AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
+
+			AccountRegistrationPage regPage = hp.clickRegister();
+//			AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
 			logger.info("Provide Customer Details....");
 			regPage.setFirstName(randomeString().toUpperCase());
 			regPage.setLastName(randomeString().toUpperCase());
@@ -51,7 +52,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			}
 
 		} catch (Exception e) {
-			
+
 			Assert.fail();
 		}
 

@@ -12,11 +12,12 @@
 		<classes>
 			<!-- 
 			<class name="testcases.TC003_LoginDataDrivenTest" />
-			<class name="testcases.TC002_LoginTest" />
 			 <class name="testcases.TC001_AccountRegistrationTest"/> 
+			<class name="testcases.TC002_LoginTest" />
 			<class name="testcases.TC004_SearchProductTest" />
-			 -->
 			<class name="testcases.TC005_AddToCartTest" />
+			 -->
+			<class name="testcases.TC006_EndToEndTest" />
 			
 		</classes>
 	</test> <!-- Test -->

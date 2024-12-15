@@ -18,7 +18,7 @@ public class TC002_LoginTest extends BaseClass {
 	public void validate_login() throws IOException {
 
 		HomePage hp = new HomePage(driver);
-		LoginPage lp = new LoginPage(driver);
+		LoginPage lp = hp.clickLogin();
 		MyAccountPage maccPage = new MyAccountPage(driver);
 
 		logger.info("********Starting Test TC002_LoginTest ************");

@@ -26,10 +26,10 @@ public class ProductPage extends BasePage {
 	@FindBy(xpath = "//div[contains(text(),'Success: You have added')]")
 	WebElement successMsg;
 
-	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']//a[contains(text(),'iMac')]")
-	WebElement lnkItems;
+	@FindBy(xpath = "//div[@id='cart']")
+	WebElement btnItems;
 
-	@FindBy(xpath = "//a[normalize-space()='shopping cart']")
+	@FindBy(xpath = "//strong[normalize-space()='View Cart']")
 	WebElement lnkShoppingCart;
 
 	public void setProductQuantity(String quantity) {
@@ -67,8 +67,8 @@ public class ProductPage extends BasePage {
 	public void clickItemNavigateToCart() {
 		// TODO Auto-generated method stub
 		try {
-			wait.until(ExpectedConditions.elementToBeClickable(lnkItems));
-			lnkItems.click();
+			wait.until(ExpectedConditions.elementToBeClickable(btnItems));
+			btnItems.click();
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Unable to click Item button "+ e.getMessage());
@@ -77,14 +77,18 @@ public class ProductPage extends BasePage {
 	}
 
 	
-	public void clickShoppingCartLink() {
+	public ShoppingCartPage clickViewCartLink() {
 
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(lnkShoppingCart));
 			lnkShoppingCart.click();
+			return new ShoppingCartPage(driver);
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("Unable to click shopping cartLink "+ e.getMessage());
+			return null;
 		}
 	}
+	
+	
 }

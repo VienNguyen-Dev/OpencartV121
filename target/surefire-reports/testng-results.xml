@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-10T11:17:32 GMT+07:00" name="Suite" finished-at="2024-12-10T11:17:49 GMT+07:00" duration-ms="16789">
+  <suite started-at="2024-12-15T10:45:28 GMT+07:00" name="Suite" finished-at="2024-12-15T10:46:38 GMT+07:00" duration-ms="70109">
     <groups>
       <group name="Master">
-        <method signature="TC005_AddToCartTest.testAddToCart()[pri:0, instance:testcases.TC005_AddToCartTest@5bf8fa12]" name="testAddToCart" class="testcases.TC005_AddToCartTest"/>
+        <method signature="TC006_EndToEndTest.executeEndtoEnd()[pri:0, instance:testcases.TC006_EndToEndTest@34158c08]" name="executeEndtoEnd" class="testcases.TC006_EndToEndTest"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2024-12-10T11:17:32 GMT+07:00" name="Test" finished-at="2024-12-10T11:17:49 GMT+07:00" duration-ms="16789">
-      <class name="testcases.TC005_AddToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC005_AddToCartTest@5bf8fa12]" started-at="2024-12-10T11:17:32 GMT+07:00" name="setUp" finished-at="2024-12-10T11:17:43 GMT+07:00" duration-ms="10684" status="PASS">
+    <test started-at="2024-12-15T10:45:28 GMT+07:00" name="Test" finished-at="2024-12-15T10:46:38 GMT+07:00" duration-ms="70109">
+      <class name="testcases.TC006_EndToEndTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC006_EndToEndTest@34158c08]" started-at="2024-12-15T10:45:28 GMT+07:00" name="setUp" finished-at="2024-12-15T10:46:04 GMT+07:00" duration-ms="36441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddToCart()[pri:0, instance:testcases.TC005_AddToCartTest@5bf8fa12]" started-at="2024-12-10T11:17:43 GMT+07:00" name="testAddToCart" finished-at="2024-12-10T11:17:48 GMT+07:00" duration-ms="4857" status="PASS">
+        <test-method signature="executeEndtoEnd()[pri:0, instance:testcases.TC006_EndToEndTest@34158c08]" started-at="2024-12-15T10:46:04 GMT+07:00" name="executeEndtoEnd" finished-at="2024-12-15T10:46:37 GMT+07:00" duration-ms="32693" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC005_AddToCartTest@5bf8fa12]" started-at="2024-12-10T11:17:48 GMT+07:00" name="tearDown" finished-at="2024-12-10T11:17:49 GMT+07:00" duration-ms="797" status="PASS">
+        </test-method> <!-- executeEndtoEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC006_EndToEndTest@34158c08]" started-at="2024-12-15T10:46:37 GMT+07:00" name="tearDown" finished-at="2024-12-15T10:46:38 GMT+07:00" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC005_AddToCartTest -->
+      </class> <!-- testcases.TC006_EndToEndTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

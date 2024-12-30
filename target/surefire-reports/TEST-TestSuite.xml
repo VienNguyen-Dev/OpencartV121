@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="25.059" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="76.948" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="VN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire6867981820359869679\surefirebooter-20241210111729521_3.jar C:\Users\DELL\AppData\Local\Temp\surefire6867981820359869679 2024-12-10T11-17-29_162-jvmRun1 surefire-20241210111729521_1tmp surefire_0-20241210111729521_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire6760478239150065957\surefirebooter-20241215104525993_3.jar C:\Users\DELL\AppData\Local\Temp\surefire6760478239150065957 2024-12-15T10-45-25_844-jvmRun1 surefire-20241215104525993_1tmp surefire_0-20241215104525993_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\test-classes;C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\classes;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\DELL\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\DELL\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\DELL\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DELL\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\DELL\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\DELL\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.2\log4j-slf4j-impl-2.24.2.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\DELL\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\DELL\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\DELL\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\DELL\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\DELL\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\DELL\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\DELL\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\DELL\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\DELL\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\DELL\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\DELL\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\DELL\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire6867981820359869679\surefirebooter-20241210111729521_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire6760478239150065957\surefirebooter-20241215104525993_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -53,7 +53,7 @@
     <property name="user.language.format" value="en"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DELL\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-23/bin;C:\Program Files\Java\jdk-23/bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\DELL\venv\Scripts\python.exe;D:\tour-booking\stripe.exe;C:\Users\DELL\Desktop\JAVA\chromedriver-win64;C:\Program Files\Java\jdk-23\bin;C:\Users\DELL\sqldeveloper\sqldeveloper\bin\sqldeveloper.exe\bin;C:\Users\DELL\apache-maven-3.9.9\bin;C:\Users\DELL\allure-2.32.0\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python312\;C:\Users\DELL\.console-ninja\.bin;C:\Program Files\nodejs\;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\Azure Data Studio\bin;C:\Users\DELL\venv\Scripts\python.exe;D:\tour-booking\stripe.exe;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.4\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DELL\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-23/bin;C:\Program Files\Java\jdk-23/bin;C:\Users\DELL\AppData\Roaming\npm;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\DELL\venv\Scripts\python.exe;D:\tour-booking\stripe.exe;C:\Users\DELL\Desktop\JAVA\chromedriver-win64;C:\Program Files\Java\jdk-23\bin;C:\Users\DELL\sqldeveloper\sqldeveloper\bin\sqldeveloper.exe\bin;C:\Users\DELL\apache-maven-3.9.9\bin;C:\Users\DELL\allure-2.32.0\bin;C:\Users\DELL\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python312\;C:\Users\DELL\.console-ninja\.bin;C:\Program Files\nodejs\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.3\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -61,27 +61,56 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testAddToCart" classname="testcases.TC005_AddToCartTest" time="4.878">
-    <system-out><![CDATA[2024-12-10T04:17:31.803632300Z main INFO Starting configuration XmlConfiguration[location=C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\test-classes\log4j2.xml, lastModified=2024-12-09T15:23:09.074Z]...
-2024-12-10T04:17:31.806494Z main INFO Start watching for changes to C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\test-classes\log4j2.xml every 0 seconds
-2024-12-10T04:17:31.806494Z main INFO Configuration XmlConfiguration[location=C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\test-classes\log4j2.xml, lastModified=2024-12-09T15:23:09.074Z] started.
-2024-12-10T04:17:31.809618Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3c130745...
-2024-12-10T04:17:31.810471800Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3c130745 stopped.
-11:17:31.892 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\Desktop\JAVA\OpenCartV121\Master.xml"
-11:17:43.448 [main] INFO  testcases.TC005_AddToCartTest - Navigation to the Application URL
-11:17:43.449 [main] INFO  testcases.TC005_AddToCartTest - Starting Test TC005_AddToCartTest
-11:17:43.576 [main] INFO  testcases.TC005_AddToCartTest - Navigation to Home Page
-11:17:43.576 [main] INFO  testcases.TC005_AddToCartTest - Enter product name into search text box
-11:17:44.819 [main] INFO  testcases.TC005_AddToCartTest - Click on 'Search' button
-11:17:45.790 [main] INFO  testcases.TC005_AddToCartTest - Waiting for navigation to Search Product Result Page
-11:17:46.366 [main] INFO  testcases.TC005_AddToCartTest - Found the product in product results: MacBook
-11:17:46.367 [main] INFO  testcases.TC005_AddToCartTest - Selecting product
-11:17:47.203 [main] INFO  testcases.TC005_AddToCartTest - Selected product MacBook
-11:17:47.438 [main] INFO  testcases.TC005_AddToCartTest - Set product quantity
-11:17:47.674 [main] INFO  testcases.TC005_AddToCartTest - Click on 'Add to Cart' for product MacBook
-11:17:47.675 [main] INFO  testcases.TC005_AddToCartTest - Validating Success message
-11:17:48.293 [main] INFO  testcases.TC005_AddToCartTest - Success message verified successful.
-11:17:48.293 [main] INFO  testcases.TC005_AddToCartTest - Finished Test TC005_AddToCartTest 
+  <testcase name="executeEndtoEnd" classname="testcases.TC006_EndToEndTest" time="32.787">
+    <system-out><![CDATA[2024-12-15T03:45:27.537816200Z main INFO Starting configuration XmlConfiguration[location=C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\test-classes\log4j2.xml, lastModified=2024-12-15T02:17:44.579Z]...
+2024-12-15T03:45:27.545341200Z main INFO Start watching for changes to C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\test-classes\log4j2.xml every 0 seconds
+2024-12-15T03:45:27.546341Z main INFO Configuration XmlConfiguration[location=C:\Users\DELL\Desktop\JAVA\OpenCartV121\target\test-classes\log4j2.xml, lastModified=2024-12-15T02:17:44.579Z] started.
+2024-12-15T03:45:27.549341800Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3c130745...
+2024-12-15T03:45:27.550253300Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@3c130745 stopped.
+10:45:27.736 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\Desktop\JAVA\OpenCartV121\Master.xml"
+10:46:04.937 [main] INFO  testcases.TC006_EndToEndTest - Navigation in the URL application
+10:46:04.990 [main] INFO  testcases.TC006_EndToEndTest - Navigation in the Home Page
+10:46:04.990 [main] INFO  testcases.TC006_EndToEndTest - Click on My Account link
+10:46:05.155 [main] INFO  testcases.TC006_EndToEndTest - CLick on Register Link
+10:46:05.606 [main] INFO  testcases.TC006_EndToEndTest - Navitation in the Register Page 
+10:46:05.606 [main] INFO  testcases.TC006_EndToEndTest - Provide account information
+10:46:06.103 [main] INFO  testcases.TC006_EndToEndTest - Click on Policy checkbox
+10:46:06.181 [main] INFO  testcases.TC006_EndToEndTest - Click on Continue button
+10:46:09.342 [main] INFO  testcases.TC006_EndToEndTest - Validate confirm registration Your Account Has Been Created!
+10:46:09.345 [main] INFO  testcases.TC006_EndToEndTest - Page current is My Account Page
+10:46:09.672 [main] INFO  testcases.TC006_EndToEndTest - Click on 'Continue' button to return Home Page
+10:46:09.984 [main] INFO  testcases.TC006_EndToEndTest - Validate home page exists
+10:46:10.004 [main] INFO  testcases.TC006_EndToEndTest - Logout successful. Navigate to Home Page
+10:46:13.013 [main] INFO  testcases.TC006_EndToEndTest - Login into account with ytkpu@gmail.com
+10:46:13.014 [main] INFO  testcases.TC006_EndToEndTest - Click on 'My Account' Link
+10:46:13.072 [main] INFO  testcases.TC006_EndToEndTest - Navigate to Login Page
+10:46:13.073 [main] INFO  testcases.TC006_EndToEndTest - Click on 'Login' Link
+10:46:13.309 [main] INFO  testcases.TC006_EndToEndTest - Provide account information
+10:46:13.434 [main] INFO  testcases.TC006_EndToEndTest - Click on 'Continue' button
+10:46:13.451 [main] INFO  testcases.TC006_EndToEndTest - Validate login visible
+10:46:13.457 [main] INFO  testcases.TC006_EndToEndTest - Login Verification Fail.
+10:46:13.457 [main] INFO  testcases.TC006_EndToEndTest - Starting search product and Add to cart
+10:46:13.458 [main] INFO  testcases.TC006_EndToEndTest - Enter product name into search Text box withMacBook
+10:46:13.517 [main] INFO  testcases.TC006_EndToEndTest - Click on 'Search' button
+10:46:13.885 [main] INFO  testcases.TC006_EndToEndTest - Navigat to Search Result Page
+10:46:13.918 [main] INFO  testcases.TC006_EndToEndTest - Search Result Page don't exists
+10:46:13.918 [main] INFO  testcases.TC006_EndToEndTest - Validate Product visible in the Search Result Page
+10:46:14.688 [main] INFO  testcases.TC006_EndToEndTest - Navigate to Product Page
+10:46:14.689 [main] INFO  testcases.TC006_EndToEndTest - Provide Product quantity and add product into shopping cart
+10:46:14.843 [main] INFO  testcases.TC006_EndToEndTest - Click on 'Add To Cart' button
+10:46:18.137 [main] INFO  testcases.TC006_EndToEndTest - Product add to cart true
+10:46:18.204 [main] INFO  testcases.TC006_EndToEndTest - Starting Verify Shopping cart contents
+10:46:18.204 [main] INFO  testcases.TC006_EndToEndTest - Verify items in shopping cart
+10:46:18.205 [main] INFO  testcases.TC006_EndToEndTest - Click on shopping cart from confirm message is displayed
+10:46:18.290 [main] INFO  testcases.TC006_EndToEndTest - Click on 'View Cart' link and navigate to Shopping Cart Page
+10:46:21.621 [main] INFO  testcases.TC006_EndToEndTest - Total price in shopping cart is: $1,204.00
+10:46:21.622 [main] INFO  testcases.TC006_EndToEndTest - Starting perform checkout prcess
+10:46:21.622 [main] INFO  testcases.TC006_EndToEndTest - Click on 'Checkout' button and navigate to Checkout Page
+10:46:22.567 [main] INFO  testcases.TC006_EndToEndTest - Click on Countinue
+10:46:22.626 [main] INFO  testcases.TC006_EndToEndTest - Provide payment information
+10:46:35.421 [main] INFO  testcases.TC006_EndToEndTest - Click on Countinue in step Payment Detail
+10:46:37.502 [main] INFO  testcases.TC006_EndToEndTest - Click on checkbox Condition& policy in Payment Method
+10:46:37.563 [main] INFO  testcases.TC006_EndToEndTest - Click on Countinue in Payment Method
 ]]></system-out>
   </testcase>
 </testsuite>

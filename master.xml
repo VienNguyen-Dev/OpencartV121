@@ -16,8 +16,9 @@
 			<class name="testcases.TC002_LoginTest" />
 			<class name="testcases.TC004_SearchProductTest" />
 			<class name="testcases.TC005_AddToCartTest" />
-			 -->
 			<class name="testcases.TC006_EndToEndTest" />
+			 -->
+			<class name="testcases.TC007_CompareProductTest" />
 			
 		</classes>
 	</test> <!-- Test -->

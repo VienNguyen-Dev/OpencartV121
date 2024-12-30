@@ -23,6 +23,7 @@ public class SearchProductResultPage extends BasePage {
 	@FindBy(xpath = "//*[@id='content']/div[3]//img")
 	List<WebElement> listProducts;
 
+
 	public boolean isSearchProductPageExists() {
 		try {
 			return pageHeader.getText().contains("Search -");
@@ -70,4 +71,6 @@ public class SearchProductResultPage extends BasePage {
 		return null;
 	}
 
+	
+	
 }

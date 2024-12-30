@@ -2,6 +2,7 @@ package pageobjects;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,6 +32,17 @@ public class ProductPage extends BasePage {
 
 	@FindBy(xpath = "//strong[normalize-space()='View Cart']")
 	WebElement lnkShoppingCart;
+	
+	@FindBy(xpath = "//button[2]")
+	WebElement btnCompareProduct;
+	
+	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+	WebElement txtConfirmMessage;
+	
+	@FindBy(xpath = "//a[normalize-space()='product comparison']")
+	WebElement lnkProductCompare;
+	
+	
 
 	public void setProductQuantity(String quantity) {
 		try {
@@ -90,5 +102,30 @@ public class ProductPage extends BasePage {
 		}
 	}
 	
+	public void clickCompareProductButton() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnCompareProduct));
+		btnCompareProduct.click();
+	}
 	
+	public ProductComparePage clickOnCompareProductLink() {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(lnkProductCompare));
+			lnkProductCompare.click();
+			return new ProductComparePage(driver);
+		} catch (Exception e) {
+			System.out.println("Enable to Click on Compare Product Link" + e.getMessage());
+			return null;
+		}
+	}
+	
+	public boolean checkConfirmMessage() {
+
+		try {
+			wait.until(ExpectedConditions.visibilityOf(txtConfirmMessage));
+			return txtConfirmMessage.isDisplayed();
+		} catch (Exception e) {
+			System.out.println("Text confirm message error" + e.getMessage());
+			return false;
+		}
+	}
 }

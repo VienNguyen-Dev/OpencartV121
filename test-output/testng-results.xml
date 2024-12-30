@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-15T10:39:10 ICT" name="Suite" finished-at="2024-12-15T10:39:50 ICT" duration-ms="40347">
+  <suite started-at="2024-12-30T16:11:18 ICT" name="Suite" finished-at="2024-12-30T16:11:29 ICT" duration-ms="10486">
     <groups>
       <group name="Master">
-        <method signature="TC006_EndToEndTest.executeEndtoEnd()[pri:0, instance:testcases.TC006_EndToEndTest@12bfd80d]" name="executeEndtoEnd" class="testcases.TC006_EndToEndTest"/>
+        <method signature="TC007_CompareProductTest.testCompareProduct()[pri:0, instance:testcases.TC007_CompareProductTest@749c877b]" name="testCompareProduct" class="testcases.TC007_CompareProductTest"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2024-12-15T10:39:10 ICT" name="Test" finished-at="2024-12-15T10:39:50 ICT" duration-ms="40347">
-      <class name="testcases.TC006_EndToEndTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC006_EndToEndTest@12bfd80d]" started-at="2024-12-15T10:39:10 ICT" name="setUp" finished-at="2024-12-15T10:39:17 ICT" duration-ms="6466" status="PASS">
+    <test started-at="2024-12-30T16:11:18 ICT" name="Test" finished-at="2024-12-30T16:11:29 ICT" duration-ms="10486">
+      <class name="testcases.TC007_CompareProductTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC007_CompareProductTest@749c877b]" started-at="2024-12-30T16:11:19 ICT" name="setUp" finished-at="2024-12-30T16:11:26 ICT" duration-ms="7389" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="executeEndtoEnd()[pri:0, instance:testcases.TC006_EndToEndTest@12bfd80d]" started-at="2024-12-15T10:39:17 ICT" name="executeEndtoEnd" finished-at="2024-12-15T10:39:50 ICT" duration-ms="33227" status="PASS">
+        <test-method signature="testCompareProduct()[pri:0, instance:testcases.TC007_CompareProductTest@749c877b]" started-at="2024-12-30T16:11:26 ICT" name="testCompareProduct" finished-at="2024-12-30T16:11:28 ICT" duration-ms="2410" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executeEndtoEnd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC006_EndToEndTest@12bfd80d]" started-at="2024-12-15T10:39:50 ICT" name="tearDown" finished-at="2024-12-15T10:39:50 ICT" duration-ms="347" status="PASS">
+        </test-method> <!-- testCompareProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC007_CompareProductTest@749c877b]" started-at="2024-12-30T16:11:29 ICT" name="tearDown" finished-at="2024-12-30T16:11:29 ICT" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC006_EndToEndTest -->
+      </class> <!-- testcases.TC007_CompareProductTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
